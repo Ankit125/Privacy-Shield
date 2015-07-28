@@ -1,0 +1,206 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from Privacy Shield:Viewpager_Message_library:unspecified:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+application
+ADDED from AndroidManifest.xml:15:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:18:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:20:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:16:9
+	android:icon
+		ADDED from AndroidManifest.xml:17:9
+service#com.privatis.service.PrivatisService
+ADDED from AndroidManifest.xml:21:9
+	android:name
+		ADDED from AndroidManifest.xml:21:18
+activity#com.privatis.message.SpleshActivity
+ADDED from AndroidManifest.xml:23:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:26:13
+	android:label
+		ADDED from AndroidManifest.xml:25:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:28:13
+	android:theme
+		ADDED from AndroidManifest.xml:27:13
+	android:name
+		ADDED from AndroidManifest.xml:24:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:29:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:30:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:17
+	android:name
+		ADDED from AndroidManifest.xml:32:27
+activity#com.privatis.message.OpeningActivity
+ADDED from AndroidManifest.xml:35:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:39:13
+	android:theme
+		ADDED from AndroidManifest.xml:38:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+activity#com.privatis.message.SignInActivity
+ADDED from AndroidManifest.xml:43:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:45:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:47:13
+	android:theme
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.privatis.message.SignUpActivity
+ADDED from AndroidManifest.xml:49:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:53:13
+	android:theme
+		ADDED from AndroidManifest.xml:52:13
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+activity#com.privatis.message.ForgetPasswordActivity
+ADDED from AndroidManifest.xml:55:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:57:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:59:13
+	android:theme
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+activity#com.privatis.message.MainActivity
+ADDED from AndroidManifest.xml:61:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:63:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:65:13
+	android:theme
+		ADDED from AndroidManifest.xml:64:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+activity#com.privatis.message.MainActivity_all
+ADDED from AndroidManifest.xml:80:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:82:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:84:13
+	android:theme
+		ADDED from AndroidManifest.xml:83:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+intent-filter#android.intent.action.MAIN+com.jakewharton.android.viewpagerindicator.sample.SAMPLE
+ADDED from AndroidManifest.xml:85:13
+category#com.jakewharton.android.viewpagerindicator.sample.SAMPLE
+ADDED from AndroidManifest.xml:88:17
+	android:name
+		ADDED from AndroidManifest.xml:88:27
+activity#com.privatis.message.ComposeEmailActivity
+ADDED from AndroidManifest.xml:91:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:93:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:95:13
+	android:theme
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
+activity#com.privatis.message.Send_Mail_Activity
+ADDED from AndroidManifest.xml:97:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:99:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:101:13
+	android:theme
+		ADDED from AndroidManifest.xml:100:13
+	android:name
+		ADDED from AndroidManifest.xml:98:13
+activity#com.privatis.message.Emails_DetailsActivity
+ADDED from AndroidManifest.xml:103:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:105:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:107:13
+	android:theme
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+activity#com.privatis.message.Email_Replay_Activity
+ADDED from AndroidManifest.xml:109:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:113:13
+	android:theme
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.privatis.message.Email_Forword_Activity
+ADDED from AndroidManifest.xml:115:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:117:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:119:13
+	android:theme
+		ADDED from AndroidManifest.xml:118:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#com.privatis.message.Message_Reply_Activity
+ADDED from AndroidManifest.xml:121:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:123:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:125:13
+	android:theme
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+activity#com.privatis.message.Call_DetailsActivity
+ADDED from AndroidManifest.xml:127:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:129:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:131:13
+	android:theme
+		ADDED from AndroidManifest.xml:130:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13

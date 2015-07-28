@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_menu"
+    android:showAsAction="always"
+    android:title="shelf" >
+
+    <!-- New Emails -->
+    <item
+        android:id="@+id/menu_NewEmails"
+        android:icon="@drawable/new_emails"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/actionbar_item_new_email"
+        android:visible="true"/>
+
+    <!-- Search Widget -->
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/btn_search_icon_selector"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/actionbar_item_title_search"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_call"
+        android:icon="@drawable/action_call"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_call"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_addcontect"
+        android:icon="@drawable/action_addcontect"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_addcontect"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_block"
+        android:icon="@drawable/action_block"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_block"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_Edit"
+        android:icon="@drawable/action_edit_account"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_block"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/action_save_account"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_save"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/action_logout"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_logout"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_agree"
+        android:icon="@drawable/menu_premium_agree"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_agree"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_cancel"
+        android:icon="@drawable/menu_premium_cancel"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_cancel"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_keypad_add"
+        android:icon="@drawable/action_keypad_add"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_add_person"
+        android:visible="false"/>
+
+</menu>

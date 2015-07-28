@@ -1,0 +1,2 @@
+include ':Message', ':ksoap2-android-assembly-3.3.0-jar-with-dependencies', ':apache-commons-lang'
+include ':Viewpager_Message_library'

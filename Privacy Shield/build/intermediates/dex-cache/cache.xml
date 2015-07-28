@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Company_Project\Privacy Shield\Privacy Shield\ksoap2-android-assembly-3.3.0-jar-with-dependencies\ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="62681b8212ca52278feafec31775fd0cb096d99a">
+        <dex dex="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.3.0-jar-with-dependencies-358dae7362b00a03b8c8e933a4ab608481cd25e0.jar" />
+    </item>
+    <item
+        jar="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\exploded-aar\Privacy Shield\Viewpager_Message_library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="473267d0cf3faef1de160987d86b641d0ba40ea7">
+        <dex dex="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\pre-dexed\debug\classes-b9d683840d7456f6249490f2ff520679604f1cf9.jar" />
+    </item>
+    <item
+        jar="E:\Company_Project\Privacy Shield\Privacy Shield\apache-commons-lang\apache-commons-lang.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\pre-dexed\debug\apache-commons-lang-2addebeb7d89018e1932ac8e6fa139807259be67.jar" />
+    </item>
+    <item
+        jar="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\exploded-aar\Privacy Shield\Viewpager_Message_library\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
+        <dex dex="E:\Company_Project\Privacy Shield\Privacy Shield\Message\build\intermediates\pre-dexed\debug\android-support-v4-f5103206a0c8701c15f896400615b280426bf317.jar" />
+    </item>
+
+</items>

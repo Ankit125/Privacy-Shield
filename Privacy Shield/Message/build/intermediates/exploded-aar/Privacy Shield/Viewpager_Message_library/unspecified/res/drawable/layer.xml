@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/white_transparent"/>
+    <item
+        android:drawable="@drawable/white"
+        android:top="42dp"/>
+
+</layer-list><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Viewpager_Message_library/res/drawable/layer.xml -->

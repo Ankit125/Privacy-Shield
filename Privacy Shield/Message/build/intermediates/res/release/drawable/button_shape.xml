@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+
+            <solid android:color="@color/blue" />
+        </shape></item>
+    <item android:state_focused="true"><shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+
+            <solid android:color="@color/blue" />
+        </shape></item>
+    <item><shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+
+            <solid android:color="#0e61ab" />
+        </shape></item>
+
+</selector><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/drawable/button_shape.xml -->

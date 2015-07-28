@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_menu"
+    android:showAsAction="always"
+    android:title="shelf" >
+
+    <item
+        android:id="@+id/menu_deleteEmails"
+        android:icon="@drawable/delete"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_deleteemail"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_sendEmails"
+        android:icon="@drawable/send_email"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_sendmail"
+        android:visible="true"/>
+
+</menu><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/menu/compose_email.xml -->

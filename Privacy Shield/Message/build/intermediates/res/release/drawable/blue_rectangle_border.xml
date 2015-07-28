@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:radius="2dp" />
+
+    <stroke
+        android:width="3px"
+        android:color="@color/blue" />
+
+</shape><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/drawable/blue_rectangle_border.xml -->

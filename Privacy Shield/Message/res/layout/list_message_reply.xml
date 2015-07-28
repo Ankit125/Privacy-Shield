@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/message_reply_re"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_message_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="3"
+                android:text="Lorem ipsum dolor sit elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor in"
+                android:textColor="@color/text_gray_1" />
+
+            <TextView
+                android:id="@+id/txt_time_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Thu 3:33 PM via SMS"
+                android:textColor="@color/text_gray_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/message_reply"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_message_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="3"
+                android:text="Lorem ipsum dolor sit elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor in"
+                android:textColor="@color/text_gray_1" />
+
+            <TextView
+                android:id="@+id/txt_time_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="Thu 3:33 PM via SMS"
+                android:textColor="@color/text_gray_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

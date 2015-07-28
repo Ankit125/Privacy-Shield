@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="90"
+        android:endColor="#f1f1f1"
+        android:startColor="#ffffff" />
+
+</shape><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/drawable/listview_selector_gradient.xml -->

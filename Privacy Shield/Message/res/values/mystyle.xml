@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="myBackgroundStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#282828</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#282828</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#282828</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:icon">@drawable/action_icon</item>
+    </style>
+
+</resources>

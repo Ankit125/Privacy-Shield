@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Enter name for this caller"
+        android:textColor="@color/text_gray_1"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/editboxes_1"
+        android:ems="10"
+        android:hint="Full Name"
+        android:padding="@dimen/accout_text_padding"
+        android:singleLine="true"
+        android:textColor="@color/text_gray_1" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Are you sure you would like to block this number?"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.17"
+            android:background="@drawable/button_shape"
+            android:text="Cancel"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.13"
+            android:background="@drawable/button_shape"
+            android:text="Okey"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/layout/add_caller_dialog.xml -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!-- <color name="blue">#2174b8</color> -->
+    <color name="blue">#055ba6</color>
+    <color name="blue_dark">#2174b8</color>
+    <color name="blue_main">#055ba6</color>
+    <color name="text_gray">#4a4a4a</color>
+    <color name="text_gray_1">#575757</color>
+    <color name="text_gray_2">#808080</color>
+    <color name="text_lightgray">#757575</color>
+    <color name="text_superlightgray">#d4d4d4</color>
+    <color name="blue_hover">#802174b8</color>
+    <color name="blue_text">#0969b8</color>
+    <color name="main_blue">#01206e</color>
+    <color name="main_blue_light">#055ba6</color>
+    <color name="main_blue_light1">#3287a6</color>
+    <color name="main_blue_light2">#51a0bd</color>
+
+</resources>

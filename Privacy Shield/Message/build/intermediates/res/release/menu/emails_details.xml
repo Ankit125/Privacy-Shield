@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_menu"
+    android:showAsAction="always"
+    android:title="shelf" >
+
+    <item
+        android:id="@+id/menu_replay"
+        android:icon="@drawable/action_reply"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_replay"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_forword"
+        android:icon="@drawable/action_forward"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_forward"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/delete"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_deleteemail"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_block"
+        android:icon="@drawable/action_block"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_block"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_send"
+        android:icon="@drawable/action_send"
+        android:menuCategory="alternative"
+        android:showAsAction="always"
+        android:title="@string/action_send"
+        android:visible="false"/>
+
+</menu><!-- From: file:/E:/Company_Project/Privacy%20Shield/Privacy%20Shield/Message/res/menu/emails_details.xml -->

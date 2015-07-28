@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Message/Message.iml" filepath="$PROJECT_DIR$/Message/Message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Privacy-Shield.iml" filepath="$PROJECT_DIR$/Privacy-Shield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Viewpager_Message_library/Viewpager_Message_library.iml" filepath="$PROJECT_DIR$/Viewpager_Message_library/Viewpager_Message_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-commons-lang/apache-commons-lang.iml" filepath="$PROJECT_DIR$/apache-commons-lang/apache-commons-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ksoap2-android-assembly-3.3.0-jar-with-dependencies/ksoap2-android-assembly-3.3.0-jar-with-dependencies.iml" filepath="$PROJECT_DIR$/ksoap2-android-assembly-3.3.0-jar-with-dependencies/ksoap2-android-assembly-3.3.0-jar-with-dependencies.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="host_name">http://privatisapi.aaadev.info//direct.asmx/</string>
+    <string name="app_name">Privacy Shield</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="actionbar_item_title_search">Search</string>
+    <string name="actionbar_item_new_email">New Email</string>
+    <string name="action_deleteemail">Delete</string>
+    <string name="action_sendmail">Send</string>
+    <string name="action_call">Call</string>
+    <string name="action_addcontect">add contect</string>
+    <string name="action_block">Block</string>
+    <string name="action_replay">Replay</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_send">Send</string>
+    <string name="action_edit_account">Edit Account</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_save">save</string>
+    <string name="action_agree">Agree</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_add_person">Add</string>
+    <string name="PrivacyShield">Privacy Shield</string>
+
+
+    //Signup
+    <string name="fname_validation">Please enter first name</string>
+    <string name="lname_validation">Please eneter last name</string>
+    <string name="email_validation">Please enter valid email ID</string>
+    <string name="phone_validation">Please enter phone number</string>
+    <string name="password_validation">Pleasae enter password</string>
+
+    //Update account
+    <string name="Success_update">Account update successfully</string>
+
+    //Send New Mail
+    <string name="To">Please enter valid email</string>
+    <string name="Subject">Please enter mail subject</string>
+    <string name="Body">Please enter email body</string>
+    <string name="Success_send">Email send successfully</string>
+    <string name="Block_mail">Block successfully</string>
+    <string name="delete_mail">Delete successfully</string>
+
+</resources>
